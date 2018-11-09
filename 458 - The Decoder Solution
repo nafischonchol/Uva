@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s;
+    int i=0;
+    while(cin>>s)
+    {
+        for(i=0;i<s.size();i++)
+            printf("%c",s[i]-7);
+
+       // ৭ বিয়োগ করার কারন হল ,
+
+      // প্রতেক ক্যারেক্টার এর অ্যাসকি ভালু থেকে ৭ বিয়োগ করে ডিকোড করা হইছে ।
+        cout<<endl;
+    }
+    return 0;
+}
